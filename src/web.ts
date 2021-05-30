@@ -13,7 +13,7 @@ export class CameraPreviewWeb extends WebPlugin implements CameraPreviewPlugin {
     return new Promise((resolve, reject) => {
 
       navigator.mediaDevices.getUserMedia({
-        audio:!options.disableAudio,  
+        audio:!options.disableAudio,
         video:true}
       );
 
